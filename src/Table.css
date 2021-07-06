@@ -1,0 +1,33 @@
+.table{
+    /* overflow:hidden; */
+    height: 550px;
+    overflow: scroll;
+    color: whitesmoke;
+    background-color: darkslategrey;
+    border-radius: 12px;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    border-spacing: 0;
+    border: 1px solid black;
+}
+
+
+*::-webkit-scrollbar
+{
+	width: 0em;
+}
+
+
+.table tr {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .table td {
+    padding: 0.5rem;
+  }
+
+.table tr:nth-of-type(odd){
+    color: black;
+    background-color: aliceblue;
+}
